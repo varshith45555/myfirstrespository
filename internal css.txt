@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> web dev </title>
+
+<style>
+                  h1{
+                                   color:red;
+                                   background color:GREEN;
+                                    }
+
+
+</style>
+</head>
+
+<body>
+             <h1> this is h1</h1>
+             <h1>  this is h1</h1>
+
+</body>
