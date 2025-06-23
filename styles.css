@@ -1,0 +1,40 @@
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  background: #0B3954;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 120px;
+  height: 180px;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.left {
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+
+.middle {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.right {
+  align-self: flex-end;
+  font-weight: bold;
+}
