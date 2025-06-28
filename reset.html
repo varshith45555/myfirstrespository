@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="input" placeholder="idhar type karooo...">
+    <p id="a">ABHI IDHAR DAKH</p>
+    <form id="form">
+
+        <button type="reset">NIKAL DU...???</button>
+    </form>
+    
+    <script>
+        let form = document.getElementById("form");
+        let input= document.getElementById("input");
+        let display=document.getElementById("a");
+
+        form.addEventListener("reset", function() {
+            input.value = "";
+            display.textContent = "display";
+        });
+
+        input.addEventListener("input", function() {
+            display.textContent = input.value;
+        });
+    </script>
+</body>
+</html>
