@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css"/>
+</head>
+<body>
+    <canvas id="web-bg"></canvas>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🚀 MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="hero-text animate">
+      <h2>Hello, I'm <span class="highlight">Varshith</span></h2>
+      <h3><span id="typing"></span><span class="cursor">|</span></h3>
+      <a href="#projects" class="btn pulse">View Projects</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="animate">About Me</h2>
+    <p class="animate delay">I'm a passionate frontend developer with experience in creating responsive and interactive websites using HTML, CSS, JavaScript.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="animate">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card animate">🧠 Memory Game</div>
+      <div class="project-card animate delay">⌨️ Typing Speed Test</div>
+      <div class="project-card animate">❓ Quiz App</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="animate">Contact Me</h2>
+    <form class="contact-form animate delay">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Varshith | All rights reserved</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
